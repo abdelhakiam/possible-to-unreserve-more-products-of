@@ -1,0 +1,12 @@
+ rsv_qty = models.execute_kw(db, uid, password, 'stock.quant', 'write',
+                            [room_id, {
+                                'reserved_quantity': overwrite_number, 
+                            }])
+    print("Reserved Overwrite Successful")
+
+
+    rsv_qty = models.execute_kw(db, uid, password, 'stock.quant', 'write',
+                            [room_id, {
+                                'quantity': overwrite_number, 
+                            }])
+    print("Real Overwrite Successful")
