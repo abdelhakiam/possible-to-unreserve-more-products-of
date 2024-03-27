@@ -1,0 +1,7 @@
+Open the script in your text editor to configure the Odoo server details:
+
+db = 'your_database_name'
+url = 'your_server_url'
+username = 'your_username'
+password = 'your_password'
+Run the script using Python:
