@@ -13,13 +13,7 @@ I have updated the script to be a more robust CLI. After speaking with various d
 How to Run
 Clone the repo or download the script.
 
-Open the script in your text editor to configure the Odoo server details:
 
-db = 'your_database_name'
-url = 'your_server_url'
-username = 'your_username'
-password = 'your_password'
-Run the script using Python:
 
 python unres_alpha.py
 When prompted, enter the stock picking name.
